@@ -8,4 +8,4 @@ end
 
 joe = Customer.new('Joe Smith', '123 Maple, Anytown NC', 12345)
 
-puts joe.greeting
+joe.each_pair{|name, value| puts "#{name} => #{value}" }
