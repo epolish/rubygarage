@@ -1,0 +1,49 @@
+{
+  "city": [
+    {"id": 1, "name": "City 1"},
+    {"id": 2, "name": "City 2"}
+  ],
+  "authors": [
+    {"id": 1, "name": "Author 1"},
+    {"id": 2, "name": "Author 2"},
+    {"id": 3, "name": "Author 3"}
+  ],
+  "books": [
+    {"id": 1, "name": "Book 1"},
+    {"id": 2, "name": "Book 2"},
+    {"id": 3, "name": "Book 3"},
+    {"id": 4, "name": "Book 4"},
+    {"id": 5, "name": "Book 5"},
+    {"id": 6, "name": "Book 6"},
+    {"id": 7, "name": "Book 7"},
+    {"id": 8, "name": "Book 8"},
+    {"id": 9, "name": "Book 9"}
+  ],
+  "biography": [
+    {"book_id": 1, "author_id": 1},
+    {"book_id": 2, "author_id": 1},
+    {"book_id": 3, "author_id": 1},
+    {"book_id": 4, "author_id": 2},
+    {"book_id": 5, "author_id": 2},
+    {"book_id": 6, "author_id": 2},
+    {"book_id": 7, "author_id": 3},
+    {"book_id": 8, "author_id": 3},
+    {"book_id": 9, "author_id": 3},
+    {"book_id": 1, "author_id": 2},
+    {"book_id": 1, "author_id": 3}
+  ],
+  "readers": [
+    {"id": 1, "city_id": 1, "name": "Reader 1", "email": "address1@mail.com", "street": "Street 1", "house": "House 1"},
+    {"id": 2, "city_id": 2, "name": "Reader 2", "email": "address2@mail.com", "street": "Street 2", "house": "House 2"},
+    {"id": 3, "city_id": 1, "name": "Reader 3", "email": "address3@mail.com", "street": "Street 2", "house": "House 3"}
+  ],
+  "orders": [
+    {"book_id": 1, "reader_id": 2, "date": "2017-10-25"},
+    {"book_id": 1, "reader_id": 1, "date": "2017-10-26"},
+    {"book_id": 4, "reader_id": 2, "date": "2017-10-27"},
+    {"book_id": 7, "reader_id": 2, "date": "2017-10-28"},
+    {"book_id": 4, "reader_id": 1, "date": "2017-10-26"},
+    {"book_id": 1, "reader_id": 1, "date": "2017-10-29"},
+    {"book_id": 2, "reader_id": 1, "date": "2017-10-30"}
+  ]
+}
