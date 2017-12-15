@@ -15,7 +15,7 @@ module Codebreaker
     include Config
 
     def get_file_path(file_path)
-      File.join(Dir.pwd, APPLICATION_FOLDER, "#{file_path}.yml")
+      File.join(Dir.pwd, 'lib', 'codebreaker', "#{file_path}.yml")
     end
 
     def read(file_path)
