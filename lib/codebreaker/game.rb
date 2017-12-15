@@ -24,7 +24,7 @@ module Codebreaker
     end
 
     def can_try
-      (self.try_number += 1) < MAX_TRIES
+      self.try_number < MAX_TRIES
     end
 
     def add_hint
@@ -45,6 +45,8 @@ module Codebreaker
       else
         reload_progress(gues_number)
       end
+
+      self.try_number += 1
     end
 
     private
